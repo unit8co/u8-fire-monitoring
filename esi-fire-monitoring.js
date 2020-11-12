@@ -138,7 +138,7 @@ var showPic = function (range) {
 
 }
 
-function relabelLegend(min, max) {
+function relabelLegend() {
     legendLabels.clear()
 
     legendLabels.add(ui.Label(baVis.min, { margin: '2px 8px' }));

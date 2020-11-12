@@ -76,9 +76,9 @@ function reduceRegion(collection, reducer) {
             "system:time_start": img.date()
         })
         return featureReduced
-        // to filter missing vlaues
     }
 
+    // to filter missing vlaues
     var nonZeroFilter = ee.Filter.neq(CONFIG.fireBand, 0);
     var notNullFilter = ee.Filter.notNull([CONFIG.fireBand, CONFIG.timeField])
     var filter = ee.Filter.and(nonZeroFilter, notNullFilter)

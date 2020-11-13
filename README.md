@@ -15,17 +15,17 @@ Apps can be accessed directly from GEE code editor:
 
 Cci-fire-monitoring is built on top of [FireCCI51](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1) dataset, but can also be used with [MODIS Burned Area monthly](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD64A1#description). Check dataset websites for description of spatio-temporal resolution and availability of data.   
 
-[<div style="text-align:center"><img src="images/cci-app.png" width="700" height="400"/></div>](cci-app)
+[<img src="images/cci-app.png"/>](images/cci-app.png)
 
 The app consist of global map of burned areas with estimated day of burn. User can specify region of interest to plot statistics of the region, namely:
 * Burned areas in the region
 * Maximum burned area that intersects the region
 
-[<div style="text-align:center"><img src="images/ee-chart.png" width="700" height="400"/></div>](ee-chart)  
+[<img src="images/ee-chart.png"/>](images/ee-chart.png)  
 Each option generates a plot with burned areas on Y axis and time on X axis. User can click on specific point to plot burned areas in given month on the map.
 
 ### goes-fire-monitoring
 Goes-fire-monitoring is built on top of [GOES-16 FDCF](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_FDCF) dataset, but can also be used with other fire datasets from GOES satellites. Check dataset websites for description of spatio-temporal resolution and availability of data.
 
-[<div style="text-align:center"><img src="images/goes-app.png" width="700" height="400"/></div>](goes-app)
+[<img src="images/goes-app.png"/>](images/goes-app.png)
 

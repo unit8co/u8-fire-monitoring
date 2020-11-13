@@ -1,4 +1,4 @@
-// ESI temporal resolution is monthly
+// CCI temporal resolution is monthly
 
 var CONFIG = {
     startDate: '2001-01-01',
